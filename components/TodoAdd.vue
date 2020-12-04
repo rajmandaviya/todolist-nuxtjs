@@ -1,5 +1,5 @@
 <template>
-	<div class="row">
+	<div class="row mb-3">
 		<div class="col-sm-12">
 			<b-form inline>
 				<label class="sr-only" for="task-name">Name</label>
@@ -44,3 +44,8 @@ export default {
 	}
 }
 </script>
+<style scoped>
+.form-inline {
+    display: initial !important;
+}
+</style>

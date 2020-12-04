@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-		<div class="row">
+		<div class="row mb-3">
 			<div class="col-sm-12">
 				<h1 id="title">TODO LIST</h1>
 			</div>
@@ -28,5 +28,6 @@ export default {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+  padding-top: 100px;
 }
 </style>
